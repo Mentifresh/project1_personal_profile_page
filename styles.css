@@ -80,9 +80,9 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 40%;
   border: 3px solid white;
-  transition: all .5s;
+  transition: all .9s;
 }
 
 header .profile-image:hover {
@@ -103,6 +103,12 @@ header .profile-image:hover {
   color: yellow;
 }
 
+.map-image {
+  display:block;
+  margin: auto;
+
+}
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -114,7 +120,22 @@ header .profile-image:hover {
   transition: all .5s;
 }
 
+.bigger-card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 1000px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
 .card:hover {
+  border-color: #ff99ff;
+}
+
+.bigger-card:hover {
   border-color: #ff99ff;
 }
 
